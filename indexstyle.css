@@ -20,8 +20,7 @@ section h1{
 .image-container {
     display: flex;
     justify-content: flex-end;
-    padding:20px;
-    margin:20px;
+
 /*    align-items: center;  */
     width: 100%; /* Full width */
     height: auto; /* Adjust height as per your needs */
@@ -30,6 +29,8 @@ section h1{
 .classimg {
     max-width: 100%; /* Make sure the image doesn't overflow */
     height: auto;    /* Maintain aspect ratio */
+        padding:20px;
+    margin:20px;
 }
 
 @media (max-width: 768px) {
