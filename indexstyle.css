@@ -15,6 +15,19 @@ section h1{
   }
 
 
+.responsive-img {
+    width: 500px; /* Fixed width for larger screens */
+    height: 500px; /* Fixed height for larger screens */
+}
+
+@media only screen and (max-width: 600px) {
+    .responsive-img {
+      padding-left: 2vh;
+      margin-left: 2vh;
+        width: 100%; /* Full width on small screens */
+        height: auto; /* Maintains aspect ratio */
+    }
+}
 
 
   
