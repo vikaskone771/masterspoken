@@ -16,7 +16,28 @@ section h1{
 
 
 
+/*9-9-24 changes*/
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height as per your needs */
+}
 
+.classimg {
+    max-width: 100%; /* Make sure the image doesn't overflow */
+    height: auto;    /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+    /* For smaller screens like smartphones */
+    .classimg {
+        width: 90%; /* Adjust image width as needed */
+    }
+}
+
+/*  ........ */
   
 .social a{
   font-size: 4.5em;
