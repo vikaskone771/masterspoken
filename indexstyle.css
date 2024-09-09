@@ -15,6 +15,13 @@
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .bg-image {
+       height: 20vh;/* Smaller font size for smartphones */
+    }
+}
+
+
 
 @media only screen and (max-width: 768px) {
     /* Add styles for mobile devices here */
