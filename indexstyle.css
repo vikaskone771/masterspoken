@@ -20,7 +20,7 @@ section h1{
 .image-container {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+/*    align-items: center;  */
     width: 100%; /* Full width */
     height: auto; /* Adjust height as per your needs */
 }
