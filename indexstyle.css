@@ -43,6 +43,21 @@
 }
 
 
+  .bg-image {
+    height: 75vh; /* Smaller font size for smartphones */
+}
+@media only screen and (max-width: 800px) {
+.bg-image {
+    height: 55vh; /* Smaller font size for smartphones */
+}
+}
+
+@media only screen and (max-width: 600px) {
+.bg-image {
+   height: 35vh;/* Smaller font size for smartphones */
+}
+}
+
   
 .social a{
   font-size: 4.5em;
