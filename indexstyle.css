@@ -19,7 +19,7 @@ section h1{
 /*9-9-24 changes*/
 .image-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     width: 100%; /* Full width */
     height: auto; /* Adjust height as per your needs */
